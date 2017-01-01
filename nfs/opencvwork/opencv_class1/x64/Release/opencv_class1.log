@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/5/5 23:05:41。
+     1>项目“F:\Workspace\OpenCV_class1\opencv_class1\opencv_class1\opencv_class1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\opencv_class1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\opencv_class1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt opencv_class1.cpp
+         opencv_class1.cpp
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Workspace\OpenCV_class1\opencv_class1\x64\Release\opencv_class1.exe" /INCREMENTAL:NO /NOLOGO opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib opencv_ml249.lib opencv_video249.lib opencv_features2d249.lib opencv_calib3d249.lib opencv_objdetect249.lib opencv_contrib249.lib opencv_legacy249.lib opencv_flann249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\opencv_class1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Workspace\OpenCV_class1\opencv_class1\x64\Release\opencv_class1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Workspace\OpenCV_class1\opencv_class1\x64\Release\opencv_class1.lib" /MACHINE:X64 x64\Release\opencv_class1.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         opencv_class1.vcxproj -> F:\Workspace\OpenCV_class1\opencv_class1\x64\Release\opencv_class1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Workspace\OpenCV_class1\opencv_class1\x64\Release\opencv_class1.exe;#1" /manifest x64\Release\opencv_class1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\opencv_class1.unsuccessfulbuild”。
+         正在对“x64\Release\opencv_class1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Workspace\OpenCV_class1\opencv_class1\opencv_class1\opencv_class1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.73

@@ -1,0 +1,1 @@
+/home/fa/opencvwork/opencvpro1/CMakeFiles/opencv002.dir

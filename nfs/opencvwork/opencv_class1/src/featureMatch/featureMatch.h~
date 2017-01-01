@@ -1,0 +1,25 @@
+#ifndef __FEATUREMATCH_H
+#define __FEATUREMATCH_H
+
+#include <iostream>
+#include <stdio.h>
+#include<opencv2/opencv.hpp>
+#include<opencv2/highgui/highgui.hpp>
+#include"nonfree/features2d.hpp"
+#include"features2d/features2d.hpp"
+#include<opencv2/legacy/legacy.hpp>
+
+
+
+
+
+int featurePoint_x=0;
+int featurePoint_y=0;
+
+using namespace cv;  
+using namespace std;  
+
+int featurePicture(Mat img_2);
+int featurePeace(void);
+
+#endif

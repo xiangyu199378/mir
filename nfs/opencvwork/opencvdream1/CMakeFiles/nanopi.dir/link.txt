@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/nanopi.dir/nanopi/GPIO.o CMakeFiles/nanopi.dir/nanopi/S5P4418.o  -o nanopi -rdynamic 

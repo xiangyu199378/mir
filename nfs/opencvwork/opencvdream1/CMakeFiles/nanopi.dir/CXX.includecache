@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fa/opencvwork/opencvdream1/nanopi/GPIO.cpp
+GPIO.h
+/home/fa/opencvwork/opencvdream1/nanopi/GPIO.h
+stdio.h
+-
+
+/home/fa/opencvwork/opencvdream1/nanopi/GPIO.h
+S5P4418.h
+/home/fa/opencvwork/opencvdream1/nanopi/S5P4418.h
+stdarg.h
+-
+
+/home/fa/opencvwork/opencvdream1/nanopi/S5P4418.cpp
+S5P4418.h
+/home/fa/opencvwork/opencvdream1/nanopi/S5P4418.h
+
+/home/fa/opencvwork/opencvdream1/nanopi/S5P4418.h
+common.h
+/home/fa/opencvwork/opencvdream1/nanopi/common.h
+sys/mman.h
+-
+unistd.h
+-
+fcntl.h
+-
+
+/home/fa/opencvwork/opencvdream1/nanopi/common.h
+
