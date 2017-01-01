@@ -51,12 +51,13 @@ void detection(Mat &frame, Mat &output) {
 	float slope;
 	int res=0;
 	Mat dst, cdst;
-	Canny(frame, dst, 50, 200, 3);
+	Canny(frame, dst, 50, 150, 3);
 	cvtColor(dst, cdst, CV_GRAY2BGR);
+
 
 	#if 0
 	vector<Vec2f> lines;
-	HoughLines(dst, lines, 1, CV_PI/180, 100, 0, 0 );
+	HoughLines(dst, lines, 1, CV_PI/180, 50, 50, 10 );
 
 	for( size_t i = 0; i < lines.size(); i++ )
 	{ 
@@ -73,13 +74,14 @@ void detection(Mat &frame, Mat &output) {
 	}
 	#else
 	vector<Vec4i> lines;
+	
 	HoughLinesP(dst, lines, 1, CV_PI/180, 50, 100, 10 );
     for( size_t i = 0; i < lines.size(); i++ )
 	{
 		Vec4i l = lines[i];
 		line( cdst, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 3, CV_AA);
-		//printf("(X1:%d,Y1:%d)\n",l[0],l[1]);
-		//printf("(X2:%d,Y2:%d)\n",l[2],l[3]);
+//		printf("(X1:%d,Y1:%d)\t",l[0],l[1]);
+//		printf("(X2:%d,Y2:%d)\n",l[2],l[3]);
 		x = l[2]-l[0];
 		y = l[3]-l[1];
 		if(x!=0 && y!=0) {
@@ -98,9 +100,9 @@ void detection(Mat &frame, Mat &output) {
 	distance_buf[num]=res;
 	num++;
 	if(num>19) num=0;
-	printf("%d\n",distanceFilter(distance_buf));
-	imshow("windows", frame);
-	imshow("Hello dawn", cdst);
+//	printf("%d\n",distanceFilter(distance_buf));
+//	imshow("windows", frame);
+//	imshow("Hello dawn", cdst);
 
 	waitKey(3);
 }

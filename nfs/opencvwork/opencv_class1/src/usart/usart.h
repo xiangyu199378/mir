@@ -17,8 +17,7 @@
 
 void sendstr(char **pstr,int a,int b);
 int sendData(int S,int P);
-
 //int sendChar(char str);
-//Open Port & Set Port
 
+//Open Port & Set Port
 #endif

@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/user/main.o"
+  "CMakeFiles/main.dir/cardrive/cardrive.o"
   "CMakeFiles/main.dir/usart/usart.o"
   "CMakeFiles/main.dir/sonar/sonar.o"
   "CMakeFiles/main.dir/line_detection/line_detection.o"
   "CMakeFiles/main.dir/nanopi/GPIO.o"
   "CMakeFiles/main.dir/nanopi/S5P4418.o"
+  "CMakeFiles/main.dir/lib/pwm.o"
+  "CMakeFiles/main.dir/lib/common.o"
   "main.pdb"
   "main"
 )

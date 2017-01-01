@@ -46,7 +46,6 @@ struct rGPIO* GetGPIOD();
 
 struct rGPIO* GetGPIOB();
 
-
 struct rGPIO* GetGPIOC();
 
 int GPIO_OUTMODE(struct rGPIO* GPIO,...);	//可变参数，第一个参数为每组GPIO的起始地址，类型为rGPIO结构体指针

@@ -116,6 +116,51 @@ main/fast:
 .PHONY : main/fast
 
 # target to build an object file
+cardrive/cardrive.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/cardrive/cardrive.o
+.PHONY : cardrive/cardrive.o
+
+# target to preprocess a source file
+cardrive/cardrive.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/cardrive/cardrive.i
+.PHONY : cardrive/cardrive.i
+
+# target to generate assembly for a file
+cardrive/cardrive.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/cardrive/cardrive.s
+.PHONY : cardrive/cardrive.s
+
+# target to build an object file
+lib/common.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/common.o
+.PHONY : lib/common.o
+
+# target to preprocess a source file
+lib/common.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/common.i
+.PHONY : lib/common.i
+
+# target to generate assembly for a file
+lib/common.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/common.s
+.PHONY : lib/common.s
+
+# target to build an object file
+lib/pwm.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/pwm.o
+.PHONY : lib/pwm.o
+
+# target to preprocess a source file
+lib/pwm.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/pwm.i
+.PHONY : lib/pwm.i
+
+# target to generate assembly for a file
+lib/pwm.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/pwm.s
+.PHONY : lib/pwm.s
+
+# target to build an object file
 line_detection/line_detection.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/line_detection/line_detection.o
 .PHONY : line_detection/line_detection.o
@@ -214,6 +259,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... rebuild_cache"
+	@echo "... cardrive/cardrive.o"
+	@echo "... cardrive/cardrive.i"
+	@echo "... cardrive/cardrive.s"
+	@echo "... lib/common.o"
+	@echo "... lib/common.i"
+	@echo "... lib/common.s"
+	@echo "... lib/pwm.o"
+	@echo "... lib/pwm.i"
+	@echo "... lib/pwm.s"
 	@echo "... line_detection/line_detection.o"
 	@echo "... line_detection/line_detection.i"
 	@echo "... line_detection/line_detection.s"

@@ -72,9 +72,32 @@ CMakeFiles/main.dir/user/main.o.provides: CMakeFiles/main.dir/user/main.o.requir
 
 CMakeFiles/main.dir/user/main.o.provides.build: CMakeFiles/main.dir/user/main.o
 
+CMakeFiles/main.dir/cardrive/cardrive.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/cardrive/cardrive.o: cardrive/cardrive.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/cardrive/cardrive.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/cardrive/cardrive.o -c /home/fa/opencvwork/opencvdream1/cardrive/cardrive.cpp
+
+CMakeFiles/main.dir/cardrive/cardrive.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/cardrive/cardrive.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fa/opencvwork/opencvdream1/cardrive/cardrive.cpp > CMakeFiles/main.dir/cardrive/cardrive.i
+
+CMakeFiles/main.dir/cardrive/cardrive.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/cardrive/cardrive.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fa/opencvwork/opencvdream1/cardrive/cardrive.cpp -o CMakeFiles/main.dir/cardrive/cardrive.s
+
+CMakeFiles/main.dir/cardrive/cardrive.o.requires:
+.PHONY : CMakeFiles/main.dir/cardrive/cardrive.o.requires
+
+CMakeFiles/main.dir/cardrive/cardrive.o.provides: CMakeFiles/main.dir/cardrive/cardrive.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/cardrive/cardrive.o.provides.build
+.PHONY : CMakeFiles/main.dir/cardrive/cardrive.o.provides
+
+CMakeFiles/main.dir/cardrive/cardrive.o.provides.build: CMakeFiles/main.dir/cardrive/cardrive.o
+
 CMakeFiles/main.dir/usart/usart.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/usart/usart.o: usart/usart.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/usart/usart.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/usart/usart.o -c /home/fa/opencvwork/opencvdream1/usart/usart.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/main.dir/usart/usart.o.provides.build: CMakeFiles/main.dir/usart/usar
 
 CMakeFiles/main.dir/sonar/sonar.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/sonar/sonar.o: sonar/sonar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/sonar/sonar.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sonar/sonar.o -c /home/fa/opencvwork/opencvdream1/sonar/sonar.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/main.dir/sonar/sonar.o.provides.build: CMakeFiles/main.dir/sonar/sona
 
 CMakeFiles/main.dir/line_detection/line_detection.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/line_detection/line_detection.o: line_detection/line_detection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/line_detection/line_detection.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/line_detection/line_detection.o -c /home/fa/opencvwork/opencvdream1/line_detection/line_detection.cpp
 
@@ -143,7 +166,7 @@ CMakeFiles/main.dir/line_detection/line_detection.o.provides.build: CMakeFiles/m
 
 CMakeFiles/main.dir/nanopi/GPIO.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/nanopi/GPIO.o: nanopi/GPIO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/nanopi/GPIO.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/nanopi/GPIO.o -c /home/fa/opencvwork/opencvdream1/nanopi/GPIO.cpp
 
@@ -166,7 +189,7 @@ CMakeFiles/main.dir/nanopi/GPIO.o.provides.build: CMakeFiles/main.dir/nanopi/GPI
 
 CMakeFiles/main.dir/nanopi/S5P4418.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/nanopi/S5P4418.o: nanopi/S5P4418.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/nanopi/S5P4418.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/nanopi/S5P4418.o -c /home/fa/opencvwork/opencvdream1/nanopi/S5P4418.cpp
 
@@ -187,24 +210,76 @@ CMakeFiles/main.dir/nanopi/S5P4418.o.provides: CMakeFiles/main.dir/nanopi/S5P441
 
 CMakeFiles/main.dir/nanopi/S5P4418.o.provides.build: CMakeFiles/main.dir/nanopi/S5P4418.o
 
+CMakeFiles/main.dir/lib/pwm.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/pwm.o: lib/pwm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/lib/pwm.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/pwm.o -c /home/fa/opencvwork/opencvdream1/lib/pwm.cpp
+
+CMakeFiles/main.dir/lib/pwm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/pwm.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fa/opencvwork/opencvdream1/lib/pwm.cpp > CMakeFiles/main.dir/lib/pwm.i
+
+CMakeFiles/main.dir/lib/pwm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/pwm.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fa/opencvwork/opencvdream1/lib/pwm.cpp -o CMakeFiles/main.dir/lib/pwm.s
+
+CMakeFiles/main.dir/lib/pwm.o.requires:
+.PHONY : CMakeFiles/main.dir/lib/pwm.o.requires
+
+CMakeFiles/main.dir/lib/pwm.o.provides: CMakeFiles/main.dir/lib/pwm.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/pwm.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/pwm.o.provides
+
+CMakeFiles/main.dir/lib/pwm.o.provides.build: CMakeFiles/main.dir/lib/pwm.o
+
+CMakeFiles/main.dir/lib/common.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/common.o: lib/common.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/fa/opencvwork/opencvdream1/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/lib/common.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/common.o -c /home/fa/opencvwork/opencvdream1/lib/common.cpp
+
+CMakeFiles/main.dir/lib/common.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/common.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fa/opencvwork/opencvdream1/lib/common.cpp > CMakeFiles/main.dir/lib/common.i
+
+CMakeFiles/main.dir/lib/common.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/common.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fa/opencvwork/opencvdream1/lib/common.cpp -o CMakeFiles/main.dir/lib/common.s
+
+CMakeFiles/main.dir/lib/common.o.requires:
+.PHONY : CMakeFiles/main.dir/lib/common.o.requires
+
+CMakeFiles/main.dir/lib/common.o.provides: CMakeFiles/main.dir/lib/common.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/common.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/common.o.provides
+
+CMakeFiles/main.dir/lib/common.o.provides.build: CMakeFiles/main.dir/lib/common.o
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/user/main.o" \
+"CMakeFiles/main.dir/cardrive/cardrive.o" \
 "CMakeFiles/main.dir/usart/usart.o" \
 "CMakeFiles/main.dir/sonar/sonar.o" \
 "CMakeFiles/main.dir/line_detection/line_detection.o" \
 "CMakeFiles/main.dir/nanopi/GPIO.o" \
-"CMakeFiles/main.dir/nanopi/S5P4418.o"
+"CMakeFiles/main.dir/nanopi/S5P4418.o" \
+"CMakeFiles/main.dir/lib/pwm.o" \
+"CMakeFiles/main.dir/lib/common.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/user/main.o
+main: CMakeFiles/main.dir/cardrive/cardrive.o
 main: CMakeFiles/main.dir/usart/usart.o
 main: CMakeFiles/main.dir/sonar/sonar.o
 main: CMakeFiles/main.dir/line_detection/line_detection.o
 main: CMakeFiles/main.dir/nanopi/GPIO.o
 main: CMakeFiles/main.dir/nanopi/S5P4418.o
+main: CMakeFiles/main.dir/lib/pwm.o
+main: CMakeFiles/main.dir/lib/common.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/local/lib/libopencv_videostab.so.2.4.13
 main: /usr/local/lib/libopencv_video.so.2.4.13
@@ -248,11 +323,14 @@ CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/user/main.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/cardrive/cardrive.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/usart/usart.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/sonar/sonar.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/line_detection/line_detection.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/nanopi/GPIO.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/nanopi/S5P4418.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/pwm.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/common.o.requires
 .PHONY : CMakeFiles/main.dir/requires
 
 CMakeFiles/main.dir/clean:

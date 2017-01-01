@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fa/opencvwork/opencvdream1/cardrive/cardrive.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/cardrive/cardrive.o"
+  "/home/fa/opencvwork/opencvdream1/lib/common.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/lib/common.o"
+  "/home/fa/opencvwork/opencvdream1/lib/pwm.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/lib/pwm.o"
   "/home/fa/opencvwork/opencvdream1/line_detection/line_detection.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/line_detection/line_detection.o"
   "/home/fa/opencvwork/opencvdream1/nanopi/GPIO.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/nanopi/GPIO.o"
   "/home/fa/opencvwork/opencvdream1/nanopi/S5P4418.cpp" "/home/fa/opencvwork/opencvdream1/CMakeFiles/main.dir/nanopi/S5P4418.o"
